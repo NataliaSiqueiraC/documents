@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.contenedor{
+    margin: 20px;
+    max-width: 500px;
+    border: 10px solid rgb(179, 175, 175);
+    background-color: rgb(234, 232, 232);
+    text-align: center;
+}
+a{
+    display: block;
+    padding: 10px;
+    border: 0.5px solid rgba(161, 158, 158, 0.51);
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+.links div{
+    display: none;
+    height: 80px;
+    overflow: scroll;
+}
+.links div:target{
+    display: block;
+    background-color: white;
+}
+.links > a:hover{
+    color: blue;
+    background-color: aquamarine;
+}

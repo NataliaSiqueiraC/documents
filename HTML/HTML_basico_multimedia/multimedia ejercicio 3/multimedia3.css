@@ -1,0 +1,52 @@
+*{
+
+}
+
+.tabla {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.col1, .col2 {
+	display: inline-block;
+	width: calc(50% - 4px);
+	box-sizing: border-box;
+	padding: 5px;
+}
+.fila:nth-child(2n+1) {
+	background-color: #444;
+	color: white;
+}
+.fila:nth-child(2n) {
+	background-color: #ddd;
+	color: white;
+}
+.fila:hover {
+	background-color: rgb(255, 0, 179);
+	color: white;
+}
+table {
+	width: 400px;
+	margin: 0 auto;
+}
+
+td {
+	display: inline-block;
+	width: calc(50% - 4px);
+	box-sizing: border-box;
+	padding: 5px;
+}
+tr:nth-child(2n+1) {
+	background-color: #444;
+	color: white;
+}
+tr:nth-child(2n) {
+	background-color: #ddd;
+	color: white;
+}
+tr:hover {
+	background-color: red;
+	color: white;
+}
+
+

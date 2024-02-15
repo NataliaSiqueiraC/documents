@@ -1,0 +1,34 @@
+@charset "UTF=8";
+
+.click{
+    text-align: center;
+    border: 1px solid red;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
+
+a:visited{
+    color:aquamarine
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: orange;
+}
+.click:hover{
+    border-color: green;
+}
+.click:active{
+    border-color: orange;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding: 40px;
+}

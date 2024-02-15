@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+}
+@charset: "UTF-8";
+
+body{
+    background-color: antiquewhite;
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+header{
+    padding: 20px;
+    background-color: white;
+    margin: 0%;
+    padding-bottom: 50px;
+}
+h1{
+    padding: 20px;
+    padding-bottom: 30px;
+}
+ul.menu{
+    
+    overflow: auto; 
+    background-color: bisque;
+    border: solid rgb(148, 103, 34);
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    padding: 0%;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+ul.menu li{
+    box-sizing: border-box;
+    float: left;
+    width: 25%;  
+    border: solid rgb(148, 103, 34);
+    text-align: center;
+
+}
+
+ul.menu li a{
+    text-decoration: none;
+    color: rgb(50, 47, 47);
+    padding: 20px;
+    display: block;
+    text-align: center;   
+}
+ul.menu li a:hover{
+    color:brown;
+    background-color: rgb(244, 159, 55);
+    font-weight: bold;
+   
+}
+ul.menu li a:active{
+    color: black;
+}
+
+h2{
+    padding: 20px;
+    font-family: sans-serif;
+}
+p{
+    padding: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+.volver{
+    padding: 10px;
+    border: solid rgb(119, 9, 9);
+    margin-top: 20px;
+    background-color: rgb(245, 215, 176);
+    text-decoration: none;
+    color: rgb(52, 43, 43);
+    border-radius: 5px;
+}
+.volver:hover{
+    color: white;
+    background-color:goldenrod;
+    font-style: bold;
+}
+

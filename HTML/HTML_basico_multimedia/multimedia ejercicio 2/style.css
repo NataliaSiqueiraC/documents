@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 1000px;
+    margin: auto;
+
+}
+.video{
+    object-fit: cover;
+    width: 500px;
+}
+.contenedor{
+    position: relative;
+    margin: auto;
+    padding: 40px;
+}
+.texto{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 550px;
+    background-color: rgba(240, 248, 255, 0.624);
+    border: solid 3px red;
+}

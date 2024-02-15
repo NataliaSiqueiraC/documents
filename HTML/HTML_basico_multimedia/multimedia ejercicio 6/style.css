@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: auto;
+    max-width: 1000px;
+    padding: 40px 40px 40px 40px;
+}
+
+p{
+    text-align: center;
+}
+.contenido > div{
+    padding: 20px;
+}
+.contenido > div:hover{
+    background-color: rgb(146, 136, 136);
+    transform: translate(30px);
+}
+.foto1{
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    background-color: rgb(241, 239, 239);
+    background-image: url(imagen1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(-15deg);
+}
+    .foto2{
+        display: inline-block;
+        width: 280px;
+        height: 280px;
+        background-color: rgb(241, 239, 239);
+        background-image: url(imagen2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transform: translate(20px);
+
+}
+.foto3{
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    background-color: rgb(241, 239, 239);
+    background-image: url(imagen3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(20deg);
+}
+    
+    .foto4{
+        display: inline-block;
+        width: 280px;
+        height: 280px;
+        background-color: rgb(241, 239, 239);
+        background-image: url(imagen4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transform: rotate(-20deg);
+    }
+    .foto5{
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    background-color: rgb(241, 239, 239);
+    background-image: url(imagen5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(20deg);
+}
+    .foto6{
+        display: inline-block;
+        width: 280px;
+        height: 280px;
+        background-color: rgb(241, 239, 239);
+        background-image: url(imagen6.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transform: translate(30px);
+    }

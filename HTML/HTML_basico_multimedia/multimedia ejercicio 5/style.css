@@ -1,0 +1,21 @@
+figure{
+    text-align: center;
+    transform: scale(0.5);
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+#figu{
+    text-align: center;
+    transform: scale(0.5);
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#figu:target{
+    transform:  scale(2, 2);
+   
+}

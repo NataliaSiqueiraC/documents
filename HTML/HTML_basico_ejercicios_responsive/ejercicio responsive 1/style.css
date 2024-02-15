@@ -1,0 +1,14 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+   
+}
+.t1{
+   float: left;
+   width: 25%;
+}
+.t2{
+    float: left;
+    width: 75%;
+}

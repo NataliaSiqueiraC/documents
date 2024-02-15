@@ -1,0 +1,35 @@
+*{
+
+}
+@charset="UTF-8";
+
+h1{
+    color: red;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;    
+}
+.parag1{
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.parag2{
+    width: 800px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+    font: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red green red green;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.parag3{
+    width: 800px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

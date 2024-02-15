@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.titulos{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin: 5px;
+    background-color: blue;
+    padding: 10px;
+}
+.first{
+    display: inline-block;
+    text-align: right;
+    background-color: red;
+    padding: 5px;
+}
+.birth, .document{
+    display: inline-block;
+    width: 40px;
+    text-align: right;
+    margin-right: 5px;
+    background-color: red;
+    padding: 5px;
+    
+}
+.city{
+    margin: 5px;
+    background-color: red;
+}
+.phone{
+    margin:5px;
+    background-color: red;
+}
+
+

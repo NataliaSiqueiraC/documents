@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    position: relative;
+    animation-name: tiger;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    transform: rotate(30deg);
+
+}
+@keyframes tiger{
+    0% {top:0px; left:0px; width:100px;}
+    25% {top:200px; left:200px; width:300px;}
+    50% {top:400px; left:300px; width:600px;}
+    100% {top:600px; left:0px; width:200px;}
+}

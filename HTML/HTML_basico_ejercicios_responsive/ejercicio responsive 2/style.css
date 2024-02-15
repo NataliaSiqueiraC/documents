@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@media all and (min-width:768px){
+    .texto{
+        column-count: 2;
+        column-rule-style: solid;
+        column-rule-color: green;
+        column-rule-width: 2px;  
+    }
+    img{
+        height: 350px;
+    }
+}
+@media all and (min-width:992px){
+    .texto{
+        column-count: 3;
+        column-rule-style: solid;
+        column-rule-color: green;
+        column-rule-width: 2px; 
+    }
+    .contenedor{
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
