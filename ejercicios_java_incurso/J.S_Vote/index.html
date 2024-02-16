@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Else - If</title>
+</head>
+<body>
+<h1>Quien debe participar de las elecciones</h1>
+
+<form action="#">
+    <label for="text">¿Cual es tu edad?</label>
+    <input type="text" name="edad" id="edad">
+    <input type="button" id="bt" value="Enter" onclick="aceptar()"><br>
+    <label for="text" id="res"></label>
+</form>
+    <script>
+        function aceptar(){
+            var tx1 = document.getElementById('edad')
+            var resul = document.getElementById('res')
+
+            var final = Number(tx1.value)
+
+            resul.innerHTML = `Tu edad es: ${final} años.`
+
+            if (final < 16 || final > 65){
+                resul.innerText += `No tienes que votar.`
+            } else if (final > 16){
+                resul.innerText += `Eres obligado a votar.`
+            }
+
+        }
+    </script>
+</body>
+</html>

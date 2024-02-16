@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 100px;
+            margin: 10px;
+        }
+    </style>
+    <title>Novo-Java</title>
+    
+</head>
+<body>
+    <h1>Aprendendo o DOM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat veritatis incidunt corporis numquam autem illum illo? Consectetur omnis quod quaerat doloremque dicta nisi illum, accusamus aut veniam debitis? Inventore, necessitatibus!</p>
+    <div id="frase" onclick="clicar()" onmouseenter="entrar()"onmouseout="sair()">click aqui</div>
+
+    <div id="frase2">Vamos parender</div>
+
+    <script>
+        function clicar() {
+            var a = document.getElementById('frase')
+            a.innerText = 'Clicou!'
+        }
+        function entrar(){
+            var b = document.getElementById('frase')
+            b.innerText = 'Entrou!'
+        }
+        function sair(){
+            var c = document.getElementById('frase')
+            c.innerText = 'Saiu!'
+        }
+
+        var d = document.getElementById('frase2')
+
+        d.addEventListener('click', tecla)
+        d.addEventListener('mouseenter', vai)
+        d.addEventListener('mouseout', foi)
+        
+        function tecla() {
+            
+            d.innerText = 'entra!'
+        }
+        function vai() {
+            
+            d.innerText = 'vem!'
+        }
+        function foi() {
+            
+            d.innerText = 'sai'
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAV Script 3</title>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+
+        Velocidade: <input type="number" name="vel" id="vel"> Km\h
+
+        <input type="button" value="Aceptar" onclick="calcular()">
+        <div id="resu"></div>
+
+    <script>
+        function calcular() {
+
+            var num = document.getElementById('vel')
+
+            var res = document.getElementById('resu')
+
+            var total = Number(num.value)
+
+            resu.innerHTML = `Tu velocidad atual es de: <strong>${total} Km\\h.</strong>`
+
+            if (total > 60) {
+                resu.innerHTML += `<p>Velocidad superior <strong>60km\\h. Has sido multado</strong><p>`
+            }
+             
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario JS</title>
+</head>
+<body>
+    <h1>Cual es la nacionalidad</h1>
+
+    <form action="#">
+        <label for="text">¿De cual país eres?</label>
+
+        <input type="text" name="pais" id="pais">
+
+        <input type="button" value="Ok" onclick="aceptar()"><br>
+
+        <label for="text" id="res"></label>
+
+    </form>
+    <script>
+
+        function aceptar(){
+
+        var txt = document.getElementById('pais')
+
+        var final = document.getElementById('res')
+
+        var resul = String(txt.value)  //transform number in string
+
+        final.innerText = `Você é do ${resul}.`
+
+    
+    }
+
+        
+    
+
+        
+    </script>
+</body>
+</html>

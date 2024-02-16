@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Sumando</h1>
+    <input type="number" name="text1" id="text1">
+    <input type="number" name="text2" id="text2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="res">Resultado</div>
+
+    <script>
+        
+        function somar(){
+            var t1 = document.getElementById('text1')
+            var t2 = document.getElementById('text2')
+            var tt = document.getElementById('res')
+            //to transform string in number:
+            var tx1 = Number(t1.value)
+            var tx2 = Number(t2.value)
+            var total = tx1 + tx2
+            tt.innerText = `El total de la suma es: ${total}`
+
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM - 1</title>
+</head>
+<body>
+    <h1>Learning DOM</h1>
+    <p>Aprender a usar DOM en JS</p>
+    <p>Como usar o DOM</p>
+    <div id="msn">Click here</div>
+    <script>
+
+
+        var p1 = document.getElementsByTagName('p')[0]
+        document.write('Está asi: ' + p1.innerText) 
+        p1.style.backgroundColor = 'red'
+        
+
+
+        var p2 = document.getElementsByTagName('p')[1]
+        document.write('Aqui aprendemos a: ' + p2.innerText)
+        p2.style.color = 'green'
+
+
+        var cuerpo = document.body
+        cuerpo.style.background = 'yellow';
+
+        var mensage = document.getElementById('msn')
+        mensage.innerHTML = ('He cambiado <strong>este texto</strong> con la variable.')
+
+    </script>
+</body>
+</html>
