@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(95, 177, 249);
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    text-align: center;
+
+}
+section{
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 15px;
+}
+footer{
+    text-align: center;
+}
